@@ -34,13 +34,15 @@ a{
 a:hover{
   background-color: black;
 }
-#soustitre1{
-  display:flex;
-}
+.soustitre1 ::before{
 
-#reflex{
-  width: 50px;
-}
+      font-family: "Font Awesome 5 Free";
+      content: "\f030";
+  }
+  }
+
+
+
 
 h3{
   font-size: 1.250em
@@ -48,4 +50,10 @@ h3{
 
 #bloc_photos1{
   display: flex;
+
+
   }
+.photo{
+  width: 150px;
+  height: 150px;
+}
