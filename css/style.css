@@ -34,7 +34,7 @@ a{
 a:hover{
   background-color: black;
 }
-#container{
+#soustitre1{
   display:flex;
 }
 
@@ -45,3 +45,7 @@ a:hover{
 h3{
   font-size: 1.250em
 }
+
+#bloc_photos1{
+  display: flex;
+  }
