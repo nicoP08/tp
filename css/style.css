@@ -1,7 +1,7 @@
 
 
 body{
-  width: 980px;
+  
   margin:50px;
 }
 
@@ -77,14 +77,16 @@ p{
 footer{
   background-color: blue;
   color: white;
-  height: 200px;
+
   padding: 20px;
 }
 
 input{
   border:none;
 }
-
+footer,header, .carte{
+  width: 100%;
+}
 .images{
   display: inline-block;
   background-size: cover;
