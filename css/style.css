@@ -1,22 +1,26 @@
-
+	html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,tr,td,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,article,aside,audio,canvas,datalist,details,figcaption,figure,footer,header,hgroup,mark,meter,nav,output,progress,section,subline,summary,time,video{margin:0;padding:0;border:0;outline:0;font-size:100%}ol,ul{list-style:none}:focus{outline:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}img,article,aside,audio,canvas,datalist,details,figcaption,figure,footer,header,hgroup,mark,meter,nav,output,progress,section,subline,summary,time,video{display:block}
 body{
-
-  margin:50px;
+  width:100%;
+}
+p{
+  line-height: 2;
 }
 
 
 header{
-  background-image: url("../img/banniere.jpg");
+  background-color:#009aff;
+  background-repeat:repeat;
   text-align: center;
   height: 160  px;
   align-items: center;
   justify-content: center;
+  line-height: 3;
 }
 
 /*nav*/
 nav{
-  height : 22px;
-  box-shadow: 4  px 16px #888888;
+  height : 35px;
+  box-shadow: 1px 2px #888888;
 }
 
 a{
@@ -24,17 +28,24 @@ a{
   color:white;
 }
 
-a:hover{
+.titre1:hover, .titre2:hover, .titre3:hover{
   background-color: black;
 }
 
 #menu{
   background-color: red;
   text-align: center;
-  margin:0px;
-  padding:0px;
+  display: flex;
+  flex-direction: rows;
   line-height: 35px;
-  justify-content: space-between;
+  justify-content: center;
+}
+.titre1, .titre2, .titre3{
+  margin-right: 30px;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 #menu li {
@@ -66,26 +77,24 @@ form{
 }
 
 iframe{
-  width: 980px;
+  width: 100%;
 }
 
 p{
   font-size: 1.000em
+  padding-bottom: 20px;
 }
 
 footer{
   background-color: blue;
   color: white;
-
-  padding: 20px;
+  height: 30px;
 }
 
 input{
   border:none;
 }
-footer,header, .carte{
-  width: 100%;
-}
+
 .images{
   display: inline-block;
   background-size: cover;
@@ -113,6 +122,8 @@ footer,header, .carte{
   .terre{
     width: 480px;
     height: 380px;
+transform: rotateX(20deg);  
+
   }
 
 #container{
@@ -121,9 +132,7 @@ footer,header, .carte{
 
 #container2
 {
-  display: flex;
-  font-size: 4em;
-  justify-content: space-between;
-  padding-top: 30px;
-
+width: 100%;
+display: flex;
+justify-content: space-around;
 }
